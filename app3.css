@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 223, 205);
+    background-color: rgb(168, 170, 144);
 }
 
 /* header */
@@ -42,7 +42,60 @@ header{
     height: 50%;
     border-radius: 50%;
 }
+
+
 /* main */
+
+
+
+main{
+    font-family: Permanent Marker;
+}
+#P1main{
+    display: flex;
+    justify-content: center;
+}
+#Li3{
+    display: flex;
+    align-items: baseline;
+}
+#video{
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;  
+}
+#ul{
+    list-style-type: none;
+}
+/* img{
+    height: 40%;
+    width: 40%;
+} */
+.img5{
+    height: 100%;
+    width: 100%;
+}
+.img6{
+    height: 100%;
+    width: 100%;
+}
+.img4{
+    height: 80%;
+    width: 80%;
+}
+.img3{
+    height: 80%;
+    width: 80%;
+}
+.img1{
+    height: 100%;
+    width: 100%;
+}
+.img2{
+    height: 100%;
+    width: 100%;
+}
+
 
 /* footer */
 footer{
@@ -59,7 +112,7 @@ footer{
 #P1{
     text-decoration: underline;
 }
- ul{
+#ulfoot{
    background-color:rgb(41, 42, 53);
     border-radius: 25px;
     list-style-type: none;

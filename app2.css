@@ -2,7 +2,9 @@ body{
     background-color: rgb(113, 112, 144);
 }
 
+
 /* header */
+
 
 header{
     height: 120px;
@@ -42,7 +44,14 @@ header{
     height: 50%;
     border-radius: 50%;
 }
+
+
 /* main */
+
+
+main{
+    font-family: Shadows Into Light;
+}
 #img{
     display: flex;
     justify-content: center;
@@ -71,7 +80,10 @@ header{
     justify-content: center;
 }
 
+
 /* footer */
+
+
 footer{
     background-color: lightslategray;
     border: rgb(67, 76, 85) solid 15px;
