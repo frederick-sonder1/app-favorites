@@ -44,8 +44,12 @@ header{
 }
 
 /* main */
+
+
+
 main{
     font-family: Calligraffitti;
+    font-size: 20px;
 }
 #Titre2{
     display: flex;
@@ -83,6 +87,9 @@ main{
 }
 
 /* footer */
+
+
+
 footer{
     background-color: lightslategray;
     border: rgb(67, 76, 85) solid 15px;

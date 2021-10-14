@@ -51,6 +51,7 @@ header{
 
 main{
     font-family: Shadows Into Light;
+    font-size: 22px;
 }
 #img{
     display: flex;

@@ -50,6 +50,7 @@ header{
 
 main{
     font-family: Permanent Marker;
+    font-size: 20px;
 }
 #P1main{
     display: flex;
