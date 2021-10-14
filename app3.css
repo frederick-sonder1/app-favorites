@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(255, 223, 205);
+}
+
+/* header */
+
+header{
+    height: 120px;
+    background-color: teal;
+    border: solid rgb(0, 73, 73) 15px;
+    border-radius: 25px;
+}
+#header, #titre1, #listeheader, #ingress, #pubg, #hearsthstone, #accueil{ 
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+}
+#titre1, #listeheader{
+    background-image: none;
+    font-family:  ZCOOL KuaiLe;
+}
+#listeheader{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+#hearthstone{
+    height: 50%;
+    
+}
+#ingress{
+    height: 50%;
+    border-radius: 50%;
+}
+#pubg{
+    height: 50%;
+    border-radius: 25%;
+}
+#accueil{
+    height: 50%;
+    border-radius: 50%;
+}
+/* main */
+
+/* footer */
+footer{
+    background-color: lightslategray;
+    border: rgb(67, 76, 85) solid 15px;
+    border-radius: 25px;
+}
+#liens{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+    
+}
+#P1{
+    text-decoration: underline;
+}
+ ul{
+   background-color:rgb(41, 42, 53);
+    border-radius: 25px;
+    list-style-type: none;
+    display: flex;
+   flex-direction: column;
+    justify-content: space-around;
+}

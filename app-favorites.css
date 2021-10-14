@@ -1,0 +1,108 @@
+body{
+    background-color: slategray;
+}
+
+/* header */
+
+header{
+    height: 120px;
+    background-color: teal;
+    border: solid rgb(0, 73, 73) 15px;
+    border-radius: 25px;
+}
+#header, #titre1, #listeheader, #ingress, #pubg, #hearsthstone, #accueil{ 
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+}
+#titre1, #listeheader{
+    background-image: none;
+    font-family:  ZCOOL KuaiLe;
+}
+#listeheader{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+#hearthstone{
+    height: 50%;
+    
+}
+#ingress{
+    height: 50%;
+    border-radius: 70%;
+   
+}
+#pubg{
+    height: 50%;
+    border-radius: 25px;
+}
+#accueil{
+    height: 50%;
+    border-radius: 50%;
+}
+
+/* MAIN */
+
+#jeux{
+    margin: 2%;
+    
+}
+#tp1{
+    font-size: 50PX;
+    font-family: ZCOOL KuaiLe;
+    display: flex;
+    justify-content: center;
+}
+#text{
+    font-family: ZCOOL KuaiLe;
+    display: flex;
+    justify-content: center;
+    font-size: 150% ;
+}   
+#jeux2{
+    display: flex;
+    align-content: space-around;
+    flex-direction: row-reverse;
+    border: double solid;
+}
+#ingress2{
+    height: 70%;
+    width: 70%;
+    border-radius: 25px;   
+}
+#pubg2{
+    height: 70%;
+    width: 70%;
+    border-radius: 25px;
+
+}
+#hearthstone2{
+    border-radius: 25px;
+}
+
+/* footer */
+footer{
+    background-color: lightslategray;
+    border: rgb(67, 76, 85) solid 15px;
+    border-radius: 25px
+}
+#liens{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+    
+}
+#P1{
+    text-decoration: underline;
+}
+ ul{
+   background-color:rgb(41, 42, 53);
+    border-radius: 25px;
+    list-style-type: none;
+    display: flex;
+   flex-direction: column;
+    justify-content: space-around;
+}
