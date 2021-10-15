@@ -59,14 +59,16 @@ main{
 }
 #logo{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
 }
 #res{
     width: 75%;
+    margin: 40px;
 }
 #enl{
     width: 80%;
+    margin: 40px;
 }
 #histoire{
     text-decoration: underline;
